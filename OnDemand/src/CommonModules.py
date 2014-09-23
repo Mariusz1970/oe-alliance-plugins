@@ -146,11 +146,11 @@ class EpisodeList(HTMLComponent, GUIComponent):
 		self.onSelChanged = [ ]
 
 		self.titleFontName = "Regular"
-		self.titleFontSize = 26
+		self.titleFontSize = 32
 		self.dateFontName = "Regular"
-		self.dateFontSize = 22
+		self.dateFontSize = 28
 		self.descriptionFontName = "Regular"
-		self.descriptionFontSize = 18
+		self.descriptionFontSize = 24
 
 		self.imagedir = "/tmp/onDemandImg/"
 		self.defaultImg = iconDefault
