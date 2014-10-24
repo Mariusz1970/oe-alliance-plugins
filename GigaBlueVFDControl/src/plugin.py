@@ -209,13 +209,16 @@ class Channelnumber:
 		recordings = self.session.nav.getRecordings()
 		if recordings:
 			self.updatetime = 1000
-			self.blink = not self.blink
 			if not config.plugins.VFD_Giga.recLedBlink.value:
 				self.blink = True
 			if self.blink:
 				setLed(config.plugins.VFD_Giga.ledREC.getValue())
 			else:
-				setLed("0")
+				if config.plugins.VFD_Giga.ledREC.value == "3":
+					setLed("2")
+				else:
+					setLed("0")
+			self.blink = not self.blink
 			RecLed = True
 		else:
 			self.updatetime = 10000
