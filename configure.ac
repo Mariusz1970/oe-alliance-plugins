@@ -142,11 +142,6 @@ AutoBouquetsMaker/src/Makefile
 AutoBouquetsMaker/src/scanner/Makefile
 AutoBouquetsMaker/custom/Makefile
 
-AudioEffect/Makefile
-AudioEffect/src/Makefile
-AudioEffect/meta/Makefile
-AudioEffect/po/Makefile
-
 Blindscan/Makefile
 Blindscan/src/Makefile
 Blindscan/meta/Makefile
@@ -165,14 +160,14 @@ DLNAServer/Makefile
 DLNAServer/src/Makefile
 DLNAServer/meta/Makefile
 
+Fempa/Makefile
+Fempa/meta/Makefile
+Fempa/src/Makefile
+
 FirmwareUpgrade/Makefile
 FirmwareUpgrade/src/Makefile
 FirmwareUpgrade/meta/Makefile
 FirmwareUpgrade/po/Makefile
-
-Fempa/Makefile
-Fempa/meta/Makefile
-Fempa/src/Makefile
 
 FPGAUpgrade/Makefile
 FPGAUpgrade/src/Makefile
@@ -188,26 +183,6 @@ HbbTV/Makefile
 HbbTV/src/Makefile
 HbbTV/meta/Makefile
 HbbTV/po/Makefile
-
-INIVFDControl/Makefile
-INIVFDControl/src/Makefile
-INIVFDControl/meta/Makefile
-INIVFDControl/po/Makefile
-
-EWVFDControl/Makefile
-EWVFDControl/src/Makefile
-EWVFDControl/meta/Makefile
-EWVFDControl/po/Makefile
-
-F3LEDControl/Makefile
-F3LEDControl/src/Makefile
-F3LEDControl/meta/Makefile
-F3LEDControl/po/Makefile
-
-VPLEDControl/Makefile
-VPLEDControl/src/Makefile
-VPLEDControl/meta/Makefile
-VPLEDControl/po/Makefile
 
 LCD4linux/Makefile
 LCD4linux/src/Makefile
@@ -227,18 +202,6 @@ LCD4linux/src/sh4/Makefile
 LCD4linux/meta/Makefile
 LCD4linux/po/Makefile
 
-OdinM7VFDControl/Makefile
-OdinM7VFDControl/src/Makefile
-OdinM7VFDControl/meta/Makefile
-OdinM7VFDControl/po/Makefile
-
-MICOMUpgrade/Makefile
-MICOMUpgrade/src/Makefile
-MICOMUpgrade/src/bin/Makefile
-MICOMUpgrade/meta/Makefile
-MICOMUpgrade/po/Makefile
-MICOMUpgrade/buttons/Makefile
-
 MultiTransCodingSetup/Makefile
 MultiTransCodingSetup/src/Makefile
 MultiTransCodingSetup/meta/Makefile
@@ -250,19 +213,19 @@ OnDemand/src/icons/Makefile
 OnDemand/meta/Makefile
 OnDemand/po/Makefile
 
+OpenUitzendingGemist/Makefile
+OpenUitzendingGemist/src/Makefile
+OpenUitzendingGemist/meta/Makefile
+OpenUitzendingGemist/po/Makefile
+
 RemoteChannelStreamConverter/Makefile
 RemoteChannelStreamConverter/src/Makefile
 RemoteChannelStreamConverter/po/Makefile
 
-SH4BoosterControl/Makefile
-SH4BoosterControl/src/Makefile
-SH4BoosterControl/meta/Makefile
-SH4BoosterControl/po/Makefile
-
-SH4OSDAdjustment/Makefile
-SH4OSDAdjustment/src/Makefile
-SH4OSDAdjustment/meta/Makefile
-SH4OSDAdjustment/po/Makefile
+StreamTV/Makefile
+StreamTV/src/Makefile
+StreamTV/meta/Makefile
+StreamTV/icons/Makefile
 
 TempFanControl/Makefile
 TempFanControl/src/Makefile
@@ -279,40 +242,15 @@ TunerServer/src/Makefile
 TunerServer/meta/Makefile
 TunerServer/po/Makefile
 
-OpenUitzendingGemist/Makefile
-OpenUitzendingGemist/src/Makefile
-OpenUitzendingGemist/meta/Makefile
-OpenUitzendingGemist/po/Makefile
-
-SF8VFDControl/Makefile
-SF8VFDControl/src/Makefile
-SF8VFDControl/meta/Makefile
-SF8VFDControl/po/Makefile
-
-StreamTV/Makefile
-StreamTV/src/Makefile
-StreamTV/meta/Makefile
-StreamTV/icons/Makefile
-
-VentonFancontrol/Makefile
-VentonFancontrol/src/Makefile
-VentonFancontrol/meta/Makefile
-VentonFancontrol/po/Makefile
+VuplusEvent/Makefile
+VuplusEvent/src/Makefile
+VuplusEvent/meta/Makefile
+VuplusEvent/po/Makefile
 
 VuRemote/Makefile
 VuRemote/src/Makefile
 VuRemote/meta/Makefile
 VuRemote/po/Makefile
-
-VuDuoFanControl/Makefile
-VuDuoFanControl/src/Makefile
-VuDuoFanControl/meta/Makefile
-VuDuoFanControl/po/Makefile
-
-VuplusEvent/Makefile
-VuplusEvent/src/Makefile
-VuplusEvent/meta/Makefile
-VuplusEvent/po/Makefile
 
 WebBrowser/Makefile
 WebBrowser/src/Makefile
@@ -335,15 +273,6 @@ XtrendRemote/Makefile
 XtrendRemote/src/Makefile
 XtrendRemote/meta/Makefile
 XtrendRemote/po/Makefile
-
-SparkVFDControl/Makefile
-SparkVFDControl/src/Makefile
-SparkVFDControl/meta/Makefile
-SparkVFDControl/po/Makefile
-
-SparkUnionTunerType/Makefile
-SparkUnionTunerType/src/Makefile
-SparkUnionTunerType/meta/Makefile
 
 ])
 AC_OUTPUT
