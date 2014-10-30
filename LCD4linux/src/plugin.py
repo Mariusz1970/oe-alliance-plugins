@@ -12203,7 +12203,7 @@ def autostart(reason, **kwargs):
 				pass
 
 def setup(menuid, **kwargs):
-	if getImageDistro() in ("openvix", "openatv", "ventonsupport", "egami", "openhdf"):
+	if getImageDistro() in ("openvix", "openvixhd", "openatv", "ventonsupport", "egami", "openhdf"):
 		if menuid == "display" and SystemInfo["Display"]:
 			return [("LCD4Linux", main, "lcd4linux", None)]
 		elif menuid == "system" and not SystemInfo["Display"]:
