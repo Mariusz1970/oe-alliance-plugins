@@ -132,6 +132,11 @@ Makefile
 3GModemManager/src/script/Makefile
 3GModemManager/meta/Makefile
 
+AudioEffect/Makefile
+AudioEffect/src/Makefile
+AudioEffect/meta/Makefile
+AudioEffect/po/Makefile
+
 AutoBouquetsMaker/Makefile
 AutoBouquetsMaker/images/Makefile
 AutoBouquetsMaker/lib/Makefile

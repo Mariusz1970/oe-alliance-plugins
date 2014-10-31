@@ -7,7 +7,7 @@ SUBDIRS += WirelessAccessPoint
 endif
 
 if VUPLUS
-SUBDIRS += VuplusEvent HbbTV
+SUBDIRS += VuplusEvent HbbTV AudioEffect
 endif
 
 if XTREND
@@ -39,7 +39,7 @@ SUBDIRS += FirmwareUpgrade VuRemote TransCodingSetup Blindscan
 endif
 
 if GIGABLUE
-SUBDIRS += GigaBlueVFDControl Blindscan
+SUBDIRS += GigaBlueVFDControl Blindscan AudioEffect
 endif
 
 
@@ -48,9 +48,17 @@ SUBDIRS += TempFanControl
 endif
 
 if GBQUADPLUS
-SUBDIRS += TransCodingSetup
+SUBDIRS += AudioEffect TransCodingSetup
 endif
 
 if GBQUAD
-SUBDIRS += TransCodingSetup
+SUBDIRS += AudioEffect TransCodingSetup
+endif
+
+if GB800SEPLUS
+SUBDIRS += AudioEffect
+endif
+
+if GB800UEPLUS
+SUBDIRS += AudioEffect
 endif
