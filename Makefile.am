@@ -22,6 +22,10 @@ if HD2400
 SUBDIRS += XtrendFancontrol XtrendRemote MultiTransCodingSetup
 endif
 
+if VUUNO
+SUBDIRS += FirmwareUpgrade Blindscan VuRemote
+endif
+
 if VUULTIMO
 SUBDIRS += FirmwareUpgrade Blindscan VuRemote
 endif
