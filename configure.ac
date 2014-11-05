@@ -257,6 +257,11 @@ VuRemote/src/Makefile
 VuRemote/meta/Makefile
 VuRemote/po/Makefile
 
+VuDuoFanControl/Makefile
+VuDuoFanControl/src/Makefile
+VuDuoFanControl/meta/Makefile
+VuDuoFanControl/po/Makefile
+
 WebBrowser/Makefile
 WebBrowser/src/Makefile
 WebBrowser/meta/Makefile
