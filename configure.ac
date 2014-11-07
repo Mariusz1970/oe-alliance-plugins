@@ -165,10 +165,6 @@ DLNAServer/Makefile
 DLNAServer/src/Makefile
 DLNAServer/meta/Makefile
 
-Fempa/Makefile
-Fempa/meta/Makefile
-Fempa/src/Makefile
-
 FirmwareUpgrade/Makefile
 FirmwareUpgrade/src/Makefile
 FirmwareUpgrade/meta/Makefile
