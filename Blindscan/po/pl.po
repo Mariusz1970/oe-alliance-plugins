@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl_PL\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.8.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
@@ -96,10 +96,10 @@ msgid "Select the satellite you wish to search"
 msgstr "Wybierz satelitę, którą chcesz skanować"
 
 msgid "Symbol rate values are in megasymbols; enter a value between 1 and 44"
-msgstr "Wartość szybkości symbolu są w mega symbolach; Wprowadź wartość od 1 do 44"
+msgstr "Wartości szybkości symbolu są w mega symbolach; Wprowadź wartość od 1 do 44"
 
 msgid "Symbol rate values are in megasymbols; enter a value between 2 and 45"
-msgstr "Wartość szybkości symbolu są w mega symbolach; Wprowadź wartość od 2 do 45"
+msgstr "Wartości szybkości symbolu są w mega symbolach; Wprowadź wartość od 2 do 45"
 
 msgid "The blindscan run was cancelled by the user."
 msgstr "Wprowadzone 'Blind skanowanie' zostało anulowane przez użytkownika."
@@ -119,8 +119,17 @@ msgstr "okrągła prawa"
 msgid "circular right and circular left"
 msgstr "okrągły prawy i lewy kołowy"
 
-msgid "horizontal"
-msgstr "pozioma"
+msgid " horizontal"
+msgstr " pozioma"
+
+msgid " vertical"
+msgstr " pionowa"
+
+msgid "\thorizontal"
+msgstr "\tpozioma"
+
+msgid "\tvertical"
+msgstr "\tpionowa"
 
 msgid "no"
 msgstr "nie"
@@ -140,23 +149,62 @@ msgstr "do 2 stopni"
 msgid "up to 3 degrees"
 msgstr "do 3 stopni"
 
-msgid "vertical"
-msgstr "pionowa"
+msgid "Setup"
+msgstr "Ustawienia"
 
-msgid "Polarisation"
-msgstr "Polaryzacja"
+msgid "Name:"
+msgstr "Nazwa:"
 
-msgid "vertical and horizontal"
-msgstr "pionowa i pozioma"
+msgid "parsed nimsocket :"
+msgstr "zanalizowano nim gniazda:"
 
-msgid "Frequency values must be between 10700 MHz and 12749 MHz"
-msgstr "Wartość częstotliwości musi być między 10.700 MHz i 12.749 MHz"
+msgid "Sorry, this tuner is in use."
+msgstr "Przepraszamy, ten tuner jest w użyciu."
 
-msgid "Frequency values must be between 10701 MHz and 12750 MHz"
-msgstr "Wartość częstotliwości musi być między 10.701 MHz i 12.750 MHz"
+msgid "frequency"
+msgstr "częstotliwość"
 
-msgid "\"channel scan\" searches for channels and saves them to your receiver; both options do a transponder search and save the result in /tmp in an XML file in satellites.xml format"
-msgstr "Skanowanie kanałów-wyszukuje i zapisuje je do odbiornika; Obie opcje skanują transpondery i zapisują wyniki w 'tmp' w pliku satellites.xml w formacie XML"
+msgid "inversion"
+msgstr "inwersja"
 
-msgid "The suggested polarisation for this satellite is \"vertical & horizontal\""
-msgstr "Zalecane jest ustawienie w pionie i poziomie"
+msgid "symbolrate"
+msgstr "szybkość symbolu"
+
+msgid "polarization"
+msgstr "polaryzacja"
+
+msgid "modulation"
+msgstr "modulacja"
+
+msgid "nothing"
+msgstr "nic "
+
+msgid "advanced"
+msgstr "zaawansowane"
+
+msgid ""
+"Current Status : %d/%d\n"
+"   Satellite : %s\n"
+"   Polarization : %s\n"
+"   Frequency range : %d - %d MHz\n"
+"   Symbol rates : %d - %d MHz"
+msgstr ""
+"Aktualny stan : %d/%d\n"
+"   Satelita : %s\n"
+"   Polaryzacja : %s\n"
+"   Zakres częstotliwości : %d - %d MHz\n"
+"   Szybkość symbolu : %d - %d MHz"
+
+msgid ""
+"Looking for available transponders.\n"
+"This will take a long time, please be patient."
+msgstr ""
+"Szukam dostępnych transponderów.\n"
+"To będzie trwać długo, proszę o cierpliwość."
+
+msgid ""
+"Looking for available transponders.\n"
+"This will take a short while."
+msgstr ""
+"Szukam dostępnych transponderów.\n"
+"To zajmie chwilę."
